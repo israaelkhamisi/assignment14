@@ -1,0 +1,138 @@
+.NOT{
+      background: linear-gradient( to left ,lab(39.1% 21.09 47.78),#F4A700, #FE8C00);
+      background-clip: text;
+      color:transparent;
+      font-weight: 900;
+      font-size: 11.25rem;
+      line-height: 11.25rem;
+      
+}
+.notfound-page{
+  background-color: #110e0b;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 75px 75px;
+  min-height: 100vh;
+}
+
+.circle-wrapper{
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.circle{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(254, 140, 0, 0.2);
+  border: 1px solid rgba(254, 140, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle i{
+  color: #FE8C00;
+  font-size: 60px;
+}
+
+.dot{
+  position: absolute;
+  border-radius: 50%;
+}
+
+.dot-orange{
+  width: 25px;
+  height: 25px;
+  background-color: #ff5500;
+  top: -5px;
+  right: -10px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.dot-yellow{
+  width: 20px;
+  height: 20px;
+  background-color: #b8860b;
+  bottom: 0;
+  left: -15px;
+}
+.no{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+
+.btn-home,
+.btn-articles{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-home{
+  background: linear-gradient(90deg, #ff5500, #ff8c00);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(254, 140, 0, 0.3);
+}
+
+.btn-home:hover{
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+.btn-articles{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.btn-articles:hover{
+  border-color: #FE8C00;
+  color: #FE8C00;
+}
+
+.divider{
+  width: 60%;
+  margin: 60px auto 40px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.helpful-text{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
+.helpful-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.helpful-links a{
+  color: #FE8C00;
+  text-decoration: none;
+}
+
+.helpful-links a:hover{
+  text-decoration: underline;
+}
+
+.helpful-links span{
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 10px;
+}
+@keyframes float{
+  0%, 100%{ transform: translateY(0); }
+  50%{ transform: translateY(-15px); }
+}

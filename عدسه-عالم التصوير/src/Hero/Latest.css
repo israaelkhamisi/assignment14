@@ -1,0 +1,82 @@
+.news-card {
+  max-width: 1000px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 32px;
+  padding: 70px 40px;
+}
+
+.news-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ff8c00, #ff5500);
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(255, 106, 0, 0.4);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #FDBA3A, #F97316);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.news-form {
+  max-width: 640px;
+}
+
+.news-input {
+  flex: 1;
+  background: #0d0d0d;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 16px 20px;
+  color: #fff;
+}
+
+.news-input::placeholder {
+  color: #666;
+}
+
+.news-input:focus {
+  outline: none;
+  border-color: #f97316;
+}
+
+.news-btn {
+  background: linear-gradient(90deg, #ff8c00, #ff5500);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 16px 32px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+}
+
+.news-btn:hover {
+  opacity: 0.9;
+}
+
+
+.avatars {
+  display: flex;
+}
+
+.avatars img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+  object-fit: cover;
+  margin-left: -10px;
+}
+
+.avatars img:first-child {
+  margin-left: 0;
+}

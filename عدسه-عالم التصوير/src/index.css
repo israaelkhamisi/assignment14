@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body, button, input, textarea {
+  font-family: 'Tajawal', sans-serif;
+}
+::selection{
+    background-color: rgb(255, 111, 0);
+    color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#292929;
+  border-radius: 15px;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: #0A0A0A;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: orangered;
+}

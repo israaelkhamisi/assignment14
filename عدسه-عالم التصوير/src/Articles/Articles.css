@@ -1,0 +1,82 @@
+.style-btn{
+    border: 1px solid rgb(255,255, 255,0.05);
+    background-color: transparent;
+    padding: .625rem;
+    color:rgb(255,255, 255,0.5) ;
+    border-radius: .9375rem;
+}
+.style-btn.active {
+  background-color: #f97316;
+  border-color: #f97316;
+  color: #fff;
+}
+.badge2{
+    position: absolute;
+    top:20px ;
+    right:20px;
+    color:white;
+    border-radius: 15px;
+    background-color: #251E1B;
+    padding: 5px;
+}
+.logo3c{
+    color: gray;
+}
+.avatarcircle img{
+    width: 50px;
+}
+.fa-chevron-left{
+    color:#f97316;
+    border-radius: 50px;
+    border: 1px solid #f97316;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 30px;
+    background-color: #251E1B;
+}
+.card{
+    background-color: #161616;
+    transition: all 0.5s;
+    overflow: hidden;
+    ;
+    
+    
+}
+.card:hover{
+    transform: translateY(-3px);
+}
+.colorc{
+    color: white;
+    transition: all 0.2s;
+}
+.card:hover .colorc {
+    color:#f97316
+}
+.card:hover .scale{
+    transform: scale(1.1);
+   
+}
+.scale{
+    transition: all 0.2s;
+}
+.card:hover .fa-chevron-left{
+    background-color: #f97316;
+    color: white;
+}
+.btnstyle {
+  width: 40px;
+  height: 40px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ccc;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btnstyle.active {
+  background: #f97316;
+  color: #fff;
+  border-color: #f97316;
+}
