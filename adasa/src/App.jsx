@@ -19,7 +19,7 @@ function App() {
       {index:true ,element:<Articles/>}]},
   {path:'About',element:<About/>},
   {path:'*',element:<Notfound/>}]}
-  ],{ basename: '/assignment14' })
+  ])
  useEffect(()=>{
   document.documentElement.lang= 'ar'
   document.documentElement.dir = 'rtl'
