@@ -1,0 +1,56 @@
+.hero2{
+    background:linear-gradient(to left,#150E0A, #0A0A0A)  ;
+    min-height: 100vh;
+
+}
+.styleb{
+     background-color: #392517;
+    color: #FA9F1E;
+    border: 1px solid #FA9F1E;
+    border-radius: 3.125rem;
+width: fit-content;
+padding: 5px 10px;
+}
+.font3s{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.6875rem;
+}
+.btns:hover .goleft{
+    transform: translateX(-3px);
+}
+.scale{
+     object-fit:cover;
+     transition: all 0.5s;
+}
+.badge3{
+      position: absolute;
+    top:20px ;
+    right:20px;
+    
+    border-radius: 15px;
+     background: linear-gradient(90deg, #ff8c00, #ff5500);
+    color: white;
+    padding:8px;
+}
+.card2{
+      background-color: #161616;
+    transition: all 0.5s;
+    overflow: hidden;
+    ;
+    transition: all 0.5s;
+}
+.card2:hover{
+    border:1px solid #ff5500!important;
+     transform: translateY(-3px);
+}
+.arrows{
+   color: #ff5500;  
+}
+.chevrons{
+    color: #ff5500;
+    ;
+}
+.card2:hover .chevrons{
+    transform: translateX(3px);
+}

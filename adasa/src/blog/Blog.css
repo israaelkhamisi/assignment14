@@ -1,0 +1,66 @@
+.hello2{
+     min-height: 50vh;
+  background-color: #0d0d0d;
+  background-image:
+  
+    radial-gradient(circle at 15% 30%, rgba(255, 106, 0, 0.15), transparent 15%),
+    radial-gradient(circle at 80% 60%, rgba(255, 106, 0, 0.259), transparent 20%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    100% 100%,
+    75px 75px,
+    75px 75px;
+   
+}
+.badge0{
+ color: #F97316;
+ background-color: #2E1C0B;
+ border-radius: 3.125rem;
+ border:1px solid #F97316;
+padding: 5px 10px;
+ width: fit-content;
+ margin: 0 auto;
+ gap: 8px;
+}
+.fonts2{
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  color: white;
+}
+.fonts2 span{
+  background: linear-gradient( 90deg,#FAB021,#F9881A);
+background-clip: text;
+color: transparent;
+}
+.hello2e{
+   min-height: 50vh;
+  background-color: #0d0d0d;
+}
+.input-dark{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.3);
+
+}
+.input-dark:focus {
+    border-color: #f97316;
+    box-shadow: 0 0 0 3px #f973161a;
+}
+.nav-link{
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background-color: #161616;
+  transition: all 0.5s;
+  
+  
+}
+.nav-link:hover{
+  border: 1px solid rgba(249, 116, 22, 0.264);
+}
+.nav-link.active {
+  background: linear-gradient(90deg, #ff8c00, #ff5500);
+  color: #fff;
+}
